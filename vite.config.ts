@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       // GitHub Pages 部署时需要设置 base 路径
       // 格式: /仓库名/ (如果是用户页面则留空 '/')
-      base: process.env.VITE_BASE_PATH || '/',
+      base: '/mediscan-ai/',
       
       server: {
         port: 3000,
